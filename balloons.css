@@ -1,0 +1,369 @@
+body{
+  background: #FBF8F1;
+  margin: 0;
+  color: #40514E;
+  padding-left: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+font-size: 5.625rem;
+ margin: 10px auto 30px  auto;
+ font-family: 'Sacramento', cursive;
+ color: #400E32;
+}
+
+h2{
+font-family: 'Zeyda', cursive;
+  font-size: 2.5rem;
+  color: #850000;
+  font-weight: normal;
+}
+
+h3{
+font-size: 1.5rem;
+font-family: 'Zeyda', cursive;
+color: #11999E;
+}
+
+.last-msg{
+  font-size: 1.5rem;
+   color: #400E32;
+}
+
+.web{
+text-decoration: underline;
+}
+
+.top-container{
+background-color: #FFD1D1;
+padding-top: 3em;
+padding-bottom: 0.5em;
+}
+
+.middle-container{
+  background-color: #FFF8F3;
+  padding: 30px 0 5px 0;
+}
+
+.personal-img{
+  width: 15%;
+}
+
+.temp{
+  padding: 10px 0 10px 0;
+  background-color: #F9F9F9;
+}
+.profile h2{
+  font-weight: bolder;
+  color: #FCD1D1;
+  font-size: 4.5rem;
+  font-family: 'Sacramento', cursive;
+}
+
+.cake{
+  width: 20%;
+}
+
+
+.credits{
+  text-align: center;
+}
+
+.list{
+  text-align: left;
+}
+
+.last-image{
+  width: auto;
+}
+
+.end{
+  padding-top: 20px;
+  background-color: #FFF9F9;
+}
+.profile{
+  padding: 20px 0 0 0;
+}
+.profile h2{
+    color: #CD5D7D;
+}
+
+.Payment{
+  width: 20%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright{
+  font-size: 0.75rem;
+}
+
+p{
+    line-height: 2;
+}
+
+.intro{
+  font-size: 20px;
+  width: 40%;
+  margin: auto;
+}
+
+.temp-row{
+  margin:50px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.temp1
+{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+hr{
+  margin: 3em auto;
+  width: 5%;
+  border: dotted #D3E0DC   8px;
+  border-bottom: none;
+}
+
+.contact-me{
+  text-align: center;
+  margin: 4rem auto 1rem auto;
+  padding-bottom: 1rem;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 20px;
+}
+
+.btn {
+  background: #d7dee0;
+  background-image: -webkit-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -moz-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -ms-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -o-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: linear-gradient(to bottom, #d7dee0, #d7dee0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #9767b5;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #fafafa 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #aebdc4;
+  background-image: -webkit-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -moz-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -ms-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -o-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: linear-gradient(to bottom, #aebdc4, #aebdc4);
+  text-decoration: none;
+}
+
+@media (max-width: 990px) {
+  h1{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 0.5rem;
+  }
+
+  .profile h2{
+    font-size: 3rem;
+  }
+  .temp h2{
+    font-size: 2rem;
+  }
+
+  .temp h3{
+    font-size: 1.3rem;
+  }
+
+  .credits h2{
+    font-size: 2rem;
+  }
+
+  .credits h3 {
+    font-size: 1.2rem;
+    color: #400E32;
+  }
+
+  .top-container{
+    padding-top : 1rem;
+  }
+
+  .middle-container{
+    padding:20px 0;
+  }
+
+  .bottom-container{
+  padding: 40px 20px;
+  background-color: #66BFBF;
+  }
+
+  .personal-img{
+     width: 6rem;
+  }
+  hr{
+    margin: 2.5em auto;
+  }
+
+  .temp-row{
+    margin:50px auto;
+    width: 50%;
+    text-align: left;
+  }
+
+  .temp1{
+    width: 5rem;
+  }
+
+  .contact-me h2{
+    font-size: 1.4rem;
+  }
+
+  .contact-me h3{
+    font-size: 1rem;
+  }
+
+  .contact-msg{
+    width: 40%;
+    margin: 30px auto 40px;
+  }
+
+  .intro{
+    width: 70%;
+    margin: 2rem auto 4rem auto;
+  }
+
+  .Payment{
+    width: 40%;
+  }
+
+  .cake{
+    width: 30%;
+  }
+
+  .personal-img{
+    width: 40%;
+  }
+
+  .last-image{
+    width: 60%;
+  }
+
+  .last-msg{
+    font-size: 1rem;
+     color: #400E32;
+  }
+
+  .copyright{
+    padding: 5px 0 0 0;
+    font-size: 0.7rem;
+  }
+
+}
+
+.btn {
+  background: #d7dee0;
+  background-image: -webkit-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -moz-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -ms-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: -o-linear-gradient(top, #d7dee0, #d7dee0);
+  background-image: linear-gradient(to bottom, #d7dee0, #d7dee0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 5px;
+  font-family: Georgia;
+  color: #9767b5;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  border: solid #fafafa 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #aebdc4;
+  background-image: -webkit-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -moz-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -ms-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: -o-linear-gradient(top, #aebdc4, #aebdc4);
+  background-image: linear-gradient(to bottom, #aebdc4, #aebdc4);
+  text-decoration: none;
+}
+
+.balloon {
+    --balloonDimension: 15vmax; /* 15% of min(viewport width, height) */
+    width: var(--balloonDimension);
+    height: var(--balloonDimension);
+    border-radius: 100% 100% 15% 100%;
+    margin: 0 0 0 25px;
+    transform: rotateZ(45deg);
+    position: fixed;
+    bottom: calc(-1 * var(--balloonDimension));
+    left: 0;
+    background-color: aqua;
+}
+.balloon::before {
+    content: "";
+    width: 10%;
+    height: 25%;
+    background: radial-gradient(circle, rgba(255,255,255,.7) 0%, rgba(255,255,255,.1) 100%);
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    border-radius: 100%;
+}
+.balloon::after {
+    content: "";
+    width: 13%;
+    height: 5%;
+    background-color: inherit;
+    position: absolute;
+    left: 90%;
+    top: 94%;
+    border-radius: 22%;
+    transform: rotateZ(-45deg);
+}
+.balloon .string {
+    position: absolute;
+    background-color: #990;
+    width: 2px;
+    height: calc(var(--balloonDimension) * .6);
+    transform-origin: top center;
+    transform: rotateZ(-45deg);
+    top: calc(var(--balloonDimension) - 6px);
+    left: calc(var(--balloonDimension) - 8px);
+}
+.yellow{
+    background-color: rgba(150, 150, 0, .45);
+}
+.green{
+    background-color: rgba(0, 150, 0, .45);
+}
+.blue{
+    background-color: rgba(0, 0, 150, .45);
+}
+.red{
+    background-color: rgba(150, 0, 0, .45);
+}
